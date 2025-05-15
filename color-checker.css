@@ -1,0 +1,31 @@
+.color-checker-template {
+  padding: 2rem 0;
+}
+
+.color-checker-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 2rem 0;
+}
+
+.color-combination-group {
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.color-test-text {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.sample-text {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.contrast-ratio {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
